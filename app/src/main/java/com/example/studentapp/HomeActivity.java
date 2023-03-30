@@ -97,7 +97,7 @@ public class HomeActivity extends AppCompatActivity  {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 if ( i == 0 ){
-                    Intent intent = new Intent(HomeActivity.this,viewTemplate.class);
+                    Intent intent = new Intent(HomeActivity.this,form_key.class);
                     startActivity(intent);
                 }
                 if ( i == 1){

@@ -13,8 +13,7 @@ public class test_key extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_key);
         key = findViewById(R.id.keys);
-        HtmlParser htmlParser = new HtmlParser(this,key);
-        htmlParser.parseHtml(R.raw.letremotive);
+
 
     }
 }

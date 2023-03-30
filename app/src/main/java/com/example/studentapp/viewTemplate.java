@@ -22,7 +22,7 @@ public class viewTemplate extends AppCompatActivity {
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("file:///android_res/raw/letremotive.html");
+        webView.loadUrl("file:///android_res/raw/letremotive1.html");
 // create instance of AddkeyfromHtml class
 
 
